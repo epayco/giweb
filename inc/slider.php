@@ -24,7 +24,7 @@
                             <h2 style="color:#444444"> VPS para clientes  con <br> <span> mayores requerimientos </span> </h2>
                             <h4 style="color:#444444"> Tu espacio privado en servidores dedicados de grán rendimiento con control root total.</h4>
                             <p style="color:#999"><span>Desde</span>
-                                <br> <b class="price">24 USD/Mes</b></p>
+                                <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(261)?><?php getMoneda() ?>/Mes</b></p>
                             <div style="width:200px">
                                 <a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="dedicated.php"> Empieza tu proyecto</a>
                             </div>
@@ -41,7 +41,7 @@
                         <h2><span>Protege</span> los datos <br> privados de tus clientes </h2>
                         <h4> Un certificado SSL es como un guardia <br>de seguridad online que nunca descansa.</h4>
                         <p><span>Desde</span>
-                            <br> <b class="price" style="color: #ddd !important">24 USD/Mes</b></p>
+                            <br> <b class="price" style="color: #ddd !important"><?php echo getSymbol();?><?php echo getPrecioProducto(23)?><?php getMoneda() ?>/Mes</b></p>
                         <p><a class="btn waves-effect waves-light btn-default btn-lg margin-top-10" href="ssl.php"> Comenzar ahora </a></p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                             <h2 style="color:#444444"><span>Tu emisora</span> online <br> en minutos</h2>
                             <h4 style="color:#444444"> Todo lo que necesitas para transmitir <br>audio en línea.</h4>
                             <p><span>Desde</span>
-                                <br> <b class="price">24 USD/Mes</b></p>
+                                <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(97)?><?php getMoneda() ?>/Mes</b></p>
                             <div style="width:200px">
                                 <a class="btn waves-effect waves-light btn-info btn-largin-top-10 btn-lg" href="streaming.php"> Empieza a transmitir</a>
                             </div>
