@@ -74,6 +74,8 @@ function getPrecioDominio($ext,$time="msetupfee",$type="domainregister"){
 
  $dominio= $dominios=getDomainPricing($ext,$type);
  $dominio=(array)$dominio;
+ //var_dump($dominio);
+
  $valor=$dominio[$time];
  return number_format($valor,0,".,",".");
  

@@ -68,7 +68,7 @@ include 'inc/header.php';
              <p style="color:#444"> Elige el nombre adecuado con el que te encontrarán  tus clientes.</p>
           </h3>
                     <p style="color:#999"><span>Dominios desde</span>
-                        <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioDominio(1)?><?php getMoneda() ?></b></p>
+                        <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioDominio('.com')?><?php getMoneda() ?></b></p>
                     <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Buscar dominio </a></p>
                 </div>
             </div>
@@ -114,16 +114,77 @@ include 'inc/header.php';
                         <p></p>
 
 
-                        <li class="hot"><div class="item"><div class="extension">.com <span class="price">$ <?php echo getPrecioDominio(".com");?> /año</span> <span class="oldprice">$ 20</span></div></div></li>
-                        <li class="newoffer"><div class="item"><div class="extension">.net <span class="price">$ 15 /año</span><span class="oldprice">$ 22</span></div></div></li>
-                        <li><div class="item"><div class="extension">.co <span class="price">$ 18 /año</span><span class="oldprice">$ 22</span></div></div></li>
-                        <li class="new"><div class="item"><div class="extension">.org <span class="price">$ 18 /año</span><span class="oldprice">$ 25</span></div></div></li>
-                        <li><div class="item"><div class="extension">.me <span class="price">$ 22 /año</span><span class="oldprice">$ 28</span></div></div></li>
-                        <li><div class="item"><div class="extension">.global <span class="price">$ 23 /año</span><span class="oldprice">$ 30</span></div></div></li>
-                        <li><div class="item"><div class="extension">.host <span class="price">$ 28 /año</span><span class="oldprice">$ 32</span></div></div></li>
-                        <li class="new"><div class="item"><div class="extension">.name <span class="price">$ 20 /año</span><span class="oldprice">$ 26</span></div></div></li>
-                        <li><div class="item"><div class="extension">.website <span class="price">$ 22 /año</span><span class="oldprice">$ 25</span></div></div></li>
-                        <li><div class="item"><div class="extension">.site <span class="price">$ 24 /año</span><span class="oldprice">$ 28</span></div></div></li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.com <span class="price">$<?php echo getPrecioDominio(".com");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.net <span class="price">$<?php echo getPrecioDominio(".net");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.net <span class="price">$<?php echo getPrecioDominio(".co");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.org <span class="price">$<?php echo getPrecioDominio(".org");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.me <span class="price">$<?php echo getPrecioDominio(".me");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.global <span class="price">$<?php echo getPrecioDominio(".global");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.host <span class="price">$<?php echo getPrecioDominio(".host");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.name <span class="price">$<?php echo getPrecioDominio(".name");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.website <span class="price">$<?php echo getPrecioDominio(".website");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <div class="item">
+                                <div class="extension">.site <span class="price">$<?php echo getPrecioDominio(".site");?> /año</span> 
+                                    <span class="oldprice">$ 20</span>
+                                </div>
+                            </div>
+                        </li>
+                     
                     </ul>
                 </div>
             </div>
