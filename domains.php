@@ -68,7 +68,7 @@ include 'inc/header.php';
              <p style="color:#444"> Elige el nombre adecuado con el que te encontrarán  tus clientes.</p>
           </h3>
                     <p style="color:#999"><span>Dominios desde</span>
-                        <br> <b class="price">7 USD/año</b></p>
+                        <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioDominio(1)?><?php getMoneda() ?></b></p>
                     <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Buscar dominio </a></p>
                 </div>
             </div>
