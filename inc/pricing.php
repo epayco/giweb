@@ -14,7 +14,7 @@
                     </div>
                     <div class="panel-body text-center">
                         <span>DESDE</span>
-                        <h4>$210.000</h4>
+                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(114)?><?php getMoneda() ?></h4>
                         <span class="per">MENSUALES</span>
                     </div>
                     <ul class="text-center">
@@ -39,7 +39,7 @@
                 </div>
                 <div class="panel-body text-center">
                     <span>DESDE</span>
-                    <h4>$210.000</h4>
+                    <h4><?php echo getSymbol();?><?php echo getPrecioProducto(219)?><?php getMoneda() ?></h4>
                     <span class="per">MENSUALES</span>
                 </div>
                 <ul class="text-center">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="panel-body text-center">
                         <span>DESDE</span>
-                        <h4>$210.000</h4>
+                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(21)?><?php getMoneda() ?></h4>
                         <span class="per">MENSUALES</span>
                     </div>
                     <ul class="text-center">
