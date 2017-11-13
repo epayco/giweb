@@ -260,7 +260,7 @@ include 'inc/header.php';
                                  <td>Secure Site Pro with EV</td>
                                  <td>Empresa </td>
                                  <td>5 Días</td>
-                                 <td>$4.443.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(37);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                               <tr>
@@ -282,7 +282,7 @@ include 'inc/header.php';
                                  <td>Secure Site with EV</td>
                                  <td>Empresa </td>
                                  <td>5 Días</td>
-                                 <td> $3.922.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(36);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -300,7 +300,7 @@ include 'inc/header.php';
                                  <td>Secure Site Pro</td>
                                  <td>Empresa </td>
                                  <td>2 Días</td>
-                                 <td> $3.603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(35);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                           <tr>
@@ -318,7 +318,7 @@ include 'inc/header.php';
                                  <td>Secure Site</td>
                                  <td>Empresa </td>
                                  <td>4-5 Días</td>
-                                 <td> $2.443.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(34);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -336,7 +336,7 @@ include 'inc/header.php';
                                  <td>Symantec™ Code Signing Certificate</td>
                                  <td>Empresa </td>
                                  <td>2-3 Días</td>
-                                 <td> $1.543.000 COP</td>
+                                 <td> <?php echo getSymbol();?><?php echo getPrecioProducto(40);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -354,7 +354,7 @@ include 'inc/header.php';
                                  <td>Symantec™ Safe Site</td>
                                  <td>Empresa </td>
                                  <td>2-3 Días</td>
-                                 <td> $960.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(41);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                            <tr>
