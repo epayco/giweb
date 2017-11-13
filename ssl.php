@@ -73,7 +73,7 @@ include 'inc/header.php';
       <li><a href="#rapidssl">  Rapid SSL </a></li>
       <li><a href="#comodo">  Comodo </a></li>
       <li><a href="#thawte">  Thawte </a></li>
-      <li><a href="#trustwave">  Trustwave </a></li>
+      <!--<li><a href="#trustwave">  Trustwave </a></li>!-->
 
 
   </ul>
