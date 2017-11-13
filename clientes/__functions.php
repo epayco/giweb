@@ -22,12 +22,17 @@ function getMoneda(){
 }
 
  function getSymbol(){
-
  	global $symbol;
  	return $symbol;
-
  }	
 
+function getTelefonoPais(){
+
+	$telefonos=getPaisesTelefonos();
+	global $iso_pais;
+
+	return $telefonos[$iso_pais];
+}
 
 function getPais(){
 
@@ -52,6 +57,20 @@ $paises=array("AR"=>"Argentina",
 			 "ES"=>"España",
 			 "PE"=>"Peru",
 			 "ME"=>"Mexico",
+			 );
+
+return $paises;
+
+}
+
+function getPaisesTelefonos(){
+
+$paises=array("AR"=>"(+54) 115-199-3130",
+			 "CO"=>"(+57-4) 444-89-10",
+			 "US"=>"(+1) 646-432-68-31",
+			 "ES"=>"(+34) 902-041-172",
+			 "PE"=>"(+51) 1-720-01-95",
+			 "ME"=>"(+54) 115-199-31-30",
 			 );
 
 return $paises;

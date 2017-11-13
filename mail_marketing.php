@@ -132,7 +132,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(255,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                            
                                                         </div>
                               
@@ -155,7 +155,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(256,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                            
                                                         </div>
                               
@@ -177,7 +177,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(257,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                            
                                                         </div>
                               
@@ -198,7 +198,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(258,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                            
                                                         </div>
                               
@@ -220,7 +220,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(259,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                            
                                                         </div>
                               
@@ -240,7 +240,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(260,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                            
                                                         </div>
                               

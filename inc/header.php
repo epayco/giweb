@@ -46,7 +46,7 @@
                                     <li><a data-currency="USD" data-iso_country="AR" href="#"><img src="images/flags/AR.png"/> Argentina</a></li>
                                     <li><a data-currency="COP" data-iso_country="CO" href="#"><img src="images/flags/CO.png"/> Colombia</a></li>
                                     <li><a data-currency="USD" data-iso_country="US" href="#"><img src="images/flags/US.png"/> Estados Unidos</a></li>
-                                    <li><a data-currency="USD" data-iso_country="ES" href="#"><img src="images/flags/ES.png"/> España</a></li>
+                                    <li><a data-currency="EUR" data-iso_country="ES" href="#"><img src="images/flags/ES.png"/> España</a></li>
                                     <li><a data-currency="USD" data-iso_country="PE" href="#"><img src="images/flags/PE.png"/> Peru</a></li>
                                     <li><a data-currency="USD" data-iso_country="ME" href="#"><img src="images/flags/MX.png"/> Mexico</a></li>
                                 </ul>
@@ -60,7 +60,7 @@
             <div class="text-right loginbuttons positioninitial yamm">
                 <ul class="list-inline " style="font-size: 12px;  display: inline-block;">
                     <li class="dropdown yamm-fw  noborder">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span><b>Atención al cliente:</b> +57 (4) 444 8910 <b class="caret"></b></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span><b>Atención al cliente:</b> <?php echo getTelefonoPais()?> <b class="caret"></b></span></a>
                         <ul class="dropdown-menu menuh1">
                             <li class="full-width">
                                 <div class="yamm-content">
@@ -274,7 +274,7 @@
                                                 <br> En <b>giweb</b> ofrecemos más de 400 extensiones de dominio.</p>
                                         </div>
                                         <div class="col-lg-8 border_left_menu">
-                                            <a href="dominios.php">
+                                            <a href="domains.php">
                                                 <div class="col-lg-6">
                                                     <h3>Registrar</h3>
                                                     <p>Inscribe ya el nombre de tu proyecto y obtén visibilidad en internet.</p>

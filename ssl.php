@@ -911,7 +911,7 @@ include 'inc/header.php';
 
 
 
-    <div id="trustwave" class="col-sm-12">
+    <div id="trustwave" class="col-sm-12" style="display: none">
   <div id="domain-" class="domainfeatures">
         <div class="domains-table price-various ">
             <div class="row">
