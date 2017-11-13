@@ -120,14 +120,14 @@ include 'inc/header.php';
                                                         </ul>
                                                         <div class="panel-footer">
 
-                                                            <form id="form-linux-inicio" style="float:right; display: inline-block;" name="form_dedicado" id="form_dedicado" action="clientes/cart.php" method="post">
+                                                            <form id="form-product-id-2" style="float:right; display: inline-block;" name="form_dedicado" id="form_dedicado" action="clientes/cart.php" method="post">
                                                                 <input name="currency" type="hidden" value="<?php echo getMoneda() ?>"> 
                                                                 <input name="a" type="hidden" value="add">
                                                                 <input name="pid" type="hidden" value="2">
                                                             </form>
                                                             <!--  Various Pricing Dropdown Toggle -->
                                                             <!--  End Various Pricing Dropdown Toggle -->
-                                                            <a data-form="form-linux-inicio" class="btn waves-effect waves-light btn-secondary2 btn-block cart" href="#">COMPRAR AHORA</a>
+                                                            <a data-form="form-product-id-2" class="btn waves-effect waves-light btn-secondary2 btn-block cart" href="#">COMPRAR AHORA</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -162,9 +162,13 @@ include 'inc/header.php';
  </span></li>
                                                     </ul>
                                                     <div class="panel-footer">
-                                                        <!--  Various Pricing Dropdown Toggle -->
-                                                        <!--  End Various Pricing Dropdown Toggle -->
-                                                        <a class="btn waves-effect waves-light btn-primary btn-block" href="#">COMPRAR AHORA</a>
+                                                          <form id="form-product-id-250" style="float:right; display: inline-block;" name="form_dedicado" id="form_dedicado" action="clientes/cart.php" method="post">
+                                                                <input name="currency" type="hidden" value="<?php echo getMoneda() ?>"> 
+                                                                <input name="a" type="hidden" value="add">
+                                                                <input name="pid" type="hidden" value="250">
+                                                         </form>
+
+                                                        <a data-form="form-product-id-250"  class="btn waves-effect waves-light btn-primary btn-block cart" href="#">COMPRAR AHORA</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -196,9 +200,15 @@ include 'inc/header.php';
                                                             </span></li>
                                                         </ul>
                                                         <div class="panel-footer">
-                                                            <!--  Various Pricing Dropdown Toggle -->
-                                                            <!--  End Various Pricing Dropdown Toggle -->
-                                                            <a class="btn waves-effect waves-light btn-secondary2 btn-block" href="#">COMPRAR AHORA</a>
+                                                              
+                                                               <form id="form-product-id-251" style="float:right; display: inline-block;" name="form_dedicado" id="form_dedicado" action="clientes/cart.php" method="post">
+                                                                <input name="currency" type="hidden" value="<?php echo getMoneda() ?>"> 
+                                                                <input name="a" type="hidden" value="add">
+                                                                <input name="pid" type="hidden" value="2">
+                                                            </form>  
+
+
+                                                            <a data-form="form-product-id-251"  class="btn waves-effect waves-light btn-secondary2 btn-block cart" href="#">COMPRAR AHORA</a>
                                                         </div>
                                                     </div>
                                                 </div>
