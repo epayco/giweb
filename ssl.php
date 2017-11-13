@@ -405,7 +405,7 @@ include 'inc/header.php';
                                  <td>RapidSSL</td>
                                  <td>Dominio </td>
                                  <td>1-2 Días</td>
-                                 <td>$1.43.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(23);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                               <tr>
@@ -421,7 +421,7 @@ include 'inc/header.php';
                                  <td>RapidSSL Wildcard</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(25);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
