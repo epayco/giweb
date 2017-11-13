@@ -181,7 +181,7 @@ include 'inc/header.php';
                                                         <div class="panel-body text-center">
                                                            
                                                             <h4><?php echo getSymbol();?><?php echo getPrecioProducto(16);?><?php echo getMoneda(); ?></h4>
-                                                            <span class="per">Año</span>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                 <ul class="table-items">
                                     
@@ -227,7 +227,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <h4><?php echo getSymbol();?><?php echo getPrecioProducto(17);?><?php echo getMoneda(); ?></h4>
-                                                        <span class="per">Año</span>
+                                                        <span class="per">Anual</span>
                                                     </div>
                                                  
                                                      <ul class="table-items">
@@ -277,7 +277,7 @@ include 'inc/header.php';
                                                         <div class="panel-body text-center">
                                                             
                                                             <h4><h4><?php echo getSymbol();?><?php echo getPrecioProducto(18);?><?php echo getMoneda(); ?></h4></h4>
-                                                            <span class="per">Mensuales</span>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                         <ul class="table-items">
                                  

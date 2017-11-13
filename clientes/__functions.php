@@ -90,5 +90,14 @@ function getPrecioProducto($id,$time="annually",$meses=1){
  
  }
 
+ function getPrecioPlanoProducto($id,$time="annually",$meses=1){
+
+ $producto= $producto=getProductsPricing($id);
+ $producto=(array)$producto;
+ $valor=$producto[$time]/$meses;
+ return $valor;
+ 
+ }
+
 
 ?>
