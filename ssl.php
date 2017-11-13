@@ -468,7 +468,7 @@ include 'inc/header.php';
                                  <td>Essential SSL</td>
                                  <td>Dominio </td>
                                  <td>1-2 Días</td>
-                                 <td>$1.43.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(49);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                               <tr>
@@ -484,7 +484,7 @@ include 'inc/header.php';
                                  <td>Essential SSL Wildcard</td>
                                  <td>Dominio </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(50);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -502,7 +502,7 @@ include 'inc/header.php';
                                  <td>EV SSL</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td> <?php echo getSymbol();?><?php echo getPrecioProducto(52);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -520,7 +520,7 @@ include 'inc/header.php';
                                  <td>EV Multi-Domain SSL</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(51);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -538,7 +538,7 @@ include 'inc/header.php';
                                  <td>Instant SSL</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(56);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -556,7 +556,7 @@ include 'inc/header.php';
                                  <td>Instant SSL Pro</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(57);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -567,14 +567,12 @@ include 'inc/header.php';
                                     </div></td>
                               </tr>
 
-
-
                                <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Instant Premium SSL</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(62);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -590,7 +588,7 @@ include 'inc/header.php';
                                  <td>Premium SSL Wildcard</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(63);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -602,48 +600,28 @@ include 'inc/header.php';
                               </tr>
 
 
- <tr>
+                                <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Multi-Domain SSL</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(59);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
-                            <tr>
-                                 <td class="hidden-td" colspan="6" width="100%" style="padding:0px;">
-                                    <div class="id_div_details" style="display: none;" class="parentDisable">
+                              <tr>
+                                   <td class="hidden-td" colspan="6" width="100%" style="padding:0px;">
+                                      <div class="id_div_details" style="display: none;" class="parentDisable">
 
-                                    <h3>Detalle</h3>
-                                    </div></td>
-                              </tr>
+                                      <h3>Detalle</h3>
+                                      </div></td>
+                                </tr>
 
-
-
- <tr>
-                                 <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
-                                 <td>Multi-Domain SSL</td>
-                                 <td>Empresa </td>
-                                  <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
-                                  <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
-                              </tr>
-                            <tr>
-                                 <td class="hidden-td" colspan="6" width="100%" style="padding:0px;">
-                                    <div class="id_div_details" style="display: none;" class="parentDisable">
-
-                                    <h3>Detalle</h3>
-                                    </div></td>
-                              </tr>
-
-
-
- <tr>
+                              <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Code Signing</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(48);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -655,12 +633,12 @@ include 'inc/header.php';
                               </tr>
 
 
- <tr>
+                              <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>EV SGC SSL Certificate</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(53);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -672,12 +650,12 @@ include 'inc/header.php';
                               </tr>
 
 
- <tr>
+                              <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>SGC SSL Certificate</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(64);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -688,14 +666,12 @@ include 'inc/header.php';
                                     </div></td>
                               </tr>
 
-
-
- <tr>
+                            <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>SGC SSL Wildcard Certificate</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(65);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -704,15 +680,14 @@ include 'inc/header.php';
 
                                     <h3>Detalle</h3>
                                     </div></td>
-                              </tr>
+                            </tr>
 
-
- <tr>
+                            <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Comodo SSL Certificate</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(66);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -725,12 +700,12 @@ include 'inc/header.php';
 
 
 
- <tr>
+                              <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Comodo Wildcard SSL Certificate</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(67);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -742,12 +717,12 @@ include 'inc/header.php';
                               </tr>
 
 
- <tr>
+                               <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Hacker Guardian PCI Scan Control Center</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(54);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -759,12 +734,12 @@ include 'inc/header.php';
                               </tr>
 
 
- <tr>
+                              <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Comodo HackerProof Trust Mark</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(55);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -776,12 +751,12 @@ include 'inc/header.php';
                               </tr>
 
 
- <tr>
+                             <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Comodo Intranet SSL</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(58);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -791,12 +766,6 @@ include 'inc/header.php';
                                     <h3>Detalle</h3>
                                     </div></td>
                               </tr>
-
-
-
-
-
-
 
                            </tbody>
                    </table>
