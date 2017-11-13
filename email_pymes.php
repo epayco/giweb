@@ -88,10 +88,10 @@ include 'inc/header.php';
                 <div class="form-group">
                   <label for="sel1">Duración</label>
                   <select class="form-control" id="email-tiempo">
-                    <option value="monthly" data-timevalue="<?php echo getPrecioProducto(20,"monthly");?>">1 mes - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"monthly");?>/mes</option>
-                    <option value="quarterly" data-timevalue="<?php echo getPrecioProducto(20,"quarterly");?>">3 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"quarterly");?>/mes</option>
-                    <option value="semiannually" data-timevalue="<?php echo getPrecioProducto(20,"semiannually");?>">6 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"semiannually");?>/mes</option>
-                    <option value="annually" data-timevalue="<?php echo getPrecioProducto(20,"annually");?>">12 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"annually");?>/mes</option>
+                    <option value="monthly" data-timevalue="<?php echo getPrecioPlanoProducto(20,"monthly");?>">1 mes - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"monthly");?>/mes</option>
+                    <option value="quarterly" data-timevalue="<?php echo getPrecioPlanoProducto(20,"quarterly");?>">3 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"quarterly");?>/mes</option>
+                    <option value="semiannually" data-timevalue="<?php echo getPrecioPlanoProducto(20,"semiannually");?>">6 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"semiannually");?>/mes</option>
+                    <option value="annually" data-timevalue="<?php echo getPrecioPlanoProducto(20,"annually");?>">12 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(20,"annually");?>/mes</option>
                   </select>
                 </div>
             </div>
@@ -102,7 +102,9 @@ include 'inc/header.php';
                   <input style="font-weight: bold" disabled value="COP 55.660" type="text" class="form-control" id="email-total">
                 </div>
             </div>
-
+            <div>
+                <input type="hidden" value="<?php echo getMoneda(); ?>" id="email-moneda">
+            </div>
 
             <div class="col-sm-2">
 
@@ -212,10 +214,15 @@ include 'inc/footer.php';
                 <!--  Go to Top-->
                 <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
                 <!--  End of Go to Top -->
-                 <?php include ("inc/scripts.php");?>
+                <?php include ("inc/scripts.php");?>
 
                 <script type="text/javascript">
-                // ______________  TOOLTIPS
+
+                    Number.prototype.format = function(n, x) {
+                        var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
+                        return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
+                    };
+                
                     function calcTotal(){
                         var timevalue=$("#email-tiempo").children('option:selected').data('timevalue').toString();
                         timevalue.replace(".","");
@@ -223,7 +230,9 @@ include 'inc/footer.php';
                         var numcuentas=$("#email-numcuentas").val();
                         var total=numcuentas*timevalue;
                         var aprox=total.toFixed(2);
-                        $("#email-total").val(aprox);
+                        var total_final=Math.round(aprox).format(2);
+                        var strfinal=total_final+" "+$("#email-moneda").val();
+                        $("#email-total").val(strfinal);
                     }    
 
                     $(document).on("ready", function(e) {

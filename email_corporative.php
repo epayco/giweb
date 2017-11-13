@@ -64,7 +64,7 @@ include 'inc/header.php';
 
 <div class="text-center section_space ">
 
-<p style="color:#444; font-size: 2rem">Por solo $6.662 COP / Mes</p>
+<p style="color:#444; font-size: 2rem">Por solo <?php echo getSymbol();?><?php echo getPrecioProducto(10,"monthly");?> <?php echo getMoneda()?>/Mes</p>
 
      <a class="btn waves-effect waves-light btn-secondary btn-lg  " href="http://sitio.colombiaredes.com/web-hosting/enterprise-email-hosting/demo" target="blank"> Ver demo </a> 
     <a class="btn waves-effect waves-light btn-info btn-lg " href="#"> Comprar </a> 
@@ -82,18 +82,18 @@ include 'inc/header.php';
             <div class="col-sm-3">
                 <div class="form-group">
                   <label for="usr">No. de cuentas</label>
-                  <input type="number" value="1" class="form-control" id="usr">
+                  <input type="number" value="1" class="form-control" id="email-numcuentas">
                 </div>
             </div>
 
             <div class="col-sm-4 ">
                 <div class="form-group">
                   <label for="sel1">Duración</label>
-                  <select class="form-control" id="sel1">
-                    <option>1 mes - COP 2.999/mes</option>
-                    <option>3 meses - COP 2.999/mes</option>
-                    <option>6 meses - COP 2.999/mes</option>
-                    <option>9 meses - COP 2.999/mes</option>
+                  <select class="form-control" id="email-tiempo">
+                    <option value="monthly" data-timevalue="<?php echo getPrecioPlanoProducto(10,"monthly");?>">1 mes - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(10,"monthly");?>/mes</option>
+                    <option value="quarterly" data-timevalue="<?php echo getPrecioPlanoProducto(10,"quarterly");?>">3 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(10,"quarterly");?>/mes</option>
+                    <option value="semiannually" data-timevalue="<?php echo getPrecioPlanoProducto(10,"semiannually");?>">6 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(10,"semiannually");?>/mes</option>
+                    <option value="annually" data-timevalue="<?php echo getPrecioPlanoProducto(10,"annually");?>">12 meses - <?php echo getMoneda(); ?> <?php echo getSymbol();?><?php echo getPrecioProducto(10,"annually");?>/mes</option>
                   </select>
                 </div>
             </div>
@@ -101,10 +101,12 @@ include 'inc/header.php';
             <div class="col-sm-3">
                 <div class="form-group">
                   <label for="usr">Total</label>
-                  <input style="font-weight: bold" disabled value="COP 55.660" type="text" class="form-control" id="usr">
+                  <input style="font-weight: bold" disabled value="COP 55.660" type="text" class="form-control" id="email-total">
                 </div>
             </div>
-
+             <div>
+                <input type="hidden" value="<?php echo getMoneda(); ?>" id="email-moneda">
+            </div>
 
             <div class="col-sm-2">
 
@@ -211,30 +213,40 @@ include 'inc/footer.php';
                 <!--  Go to Top-->
                 <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
                 <!--  End of Go to Top -->
-                <script src="js/jquery.min.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="js/hoverIntent.js"></script>
-                <script src="js/superfish.min.js"></script>
-                <script src="js/owl.carousel.js"></script>
-                <script src="js/wow.min.js"></script>
-                <script src="js/jquery.circliful.min.js"></script>
-                <script src="js/waypoints.min.js"></script>
-                <script src="js/jquery.responsiveTabs.js"></script>
-                <script src="js/jquery.slicknav.min.js"></script>
-                <script src="js/retina.min.js"></script>
-                <script src="js/counterup.min.js"></script>
-                <script src="js/waves.js"></script>
-                <script src="js/custom.js"></script>
-                <script type="text/javascript">
-                // ______________  TOOLTIPS
-                $(document).on("ready", function(e) {
-                    $('[data-toggle="tooltip"]').tooltip();
-                });
+                              <?php include ("inc/scripts.php");?>
 
-                // ______________ TABS
-                $('#shared-hosting-tabs').responsiveTabs({
-                    startCollapsed: 'accordion'
-                });
+                <script type="text/javascript">
+
+                    Number.prototype.format = function(n, x) {
+                        var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
+                        return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
+                    };
+                
+                    function calcTotal(){
+                        var timevalue=$("#email-tiempo").children('option:selected').data('timevalue').toString();
+                        timevalue.replace(".","");
+                        console.log(timevalue);
+                        var numcuentas=$("#email-numcuentas").val();
+                        var total=numcuentas*timevalue;
+                        var aprox=total.toFixed(2);
+                        var total_final=Math.round(aprox).format(2);
+                        var strfinal=total_final+" "+$("#email-moneda").val();
+                        $("#email-total").val(strfinal);
+                    }    
+
+                    $(document).on("ready", function(e) {
+                        $('[data-toggle="tooltip"]').tooltip();
+                    });
+
+                    $('#email-tiempo').change(function(){
+                        calcTotal();
+                    });
+                    $('#email-numcuentas').change(function(){
+                        calcTotal();
+                    });
+
+                    calcTotal();
+               
                 </script>
 
                 
