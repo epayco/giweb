@@ -68,7 +68,7 @@ include 'inc/header.php';
              <p style="color:#444"> Elige el nombre adecuado con el que te encontrarán  tus clientes.</p>
           </h3>
                     <p style="color:#999"><span>Dominios desde</span>
-                        <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioDominio('.com')?><?php getMoneda() ?></b></p>
+                        <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioDominio('.com')?> <?php echo getMoneda() ?></b></p>
                     <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Buscar dominio </a></p>
                 </div>
             </div>
@@ -116,39 +116,40 @@ include 'inc/header.php';
 
                         <li class="newoffer">
                             <div class="item">
-                                <div class="extension">.com <span class="price">$<?php echo getPrecioDominio(".com");?> /año</span> 
+                                <div class="extension">.com <span class="price"><?php echo getSymbol();?><?php echo getPrecioDominio(".com");?> <?php echo getMoneda()?>/año</span> 
                                     <span class="oldprice">$ 20</span>
                                 </div>
                             </div>
                         </li>
                         <li class="newoffer">
                             <div class="item">
-                                <div class="extension">.net <span class="price">$<?php echo getPrecioDominio(".net");?> /año</span> 
+                                <div class="extension">.net <span class="price"><?php echo getSymbol();?><?php echo getPrecioDominio(".net");?> <?php echo getMoneda()?>/año</span> 
                                     <span class="oldprice">$ 20</span>
                                 </div>
                             </div>
                         </li>
                         <li class="newoffer">
                             <div class="item">
-                                <div class="extension">.net <span class="price">$<?php echo getPrecioDominio(".co");?> /año</span> 
+                                <div class="extension">.co <span class="price"><?php echo getSymbol();?><?php echo getPrecioDominio(".co");?> <?php echo getMoneda()?>/año</span> 
                                     <span class="oldprice">$ 20</span>
                                 </div>
                             </div>
                         </li>
                         <li class="newoffer">
                             <div class="item">
-                                <div class="extension">.org <span class="price">$<?php echo getPrecioDominio(".org");?> /año</span> 
+                                <div class="extension">.org <span class="price"><?php echo getSymbol();?><?php echo getPrecioDominio(".org");?> <?php echo getMoneda()?>/año</span> 
                                     <span class="oldprice">$ 20</span>
                                 </div>
                             </div>
                         </li>
                         <li class="newoffer">
                             <div class="item">
-                                <div class="extension">.me <span class="price">$<?php echo getPrecioDominio(".me");?> /año</span> 
+                                <div class="extension">.me <span class="price"><?php echo getSymbol();?><?php echo getPrecioDominio(".me");?> <?php echo getMoneda()?>/año</span> 
                                     <span class="oldprice">$ 20</span>
                                 </div>
                             </div>
                         </li>
+                        <!--
                         <li class="newoffer">
                             <div class="item">
                                 <div class="extension">.global <span class="price">$<?php echo getPrecioDominio(".global");?> /año</span> 
@@ -184,6 +185,7 @@ include 'inc/header.php';
                                 </div>
                             </div>
                         </li>
+                        !-->
                      
                     </ul>
                 </div>
@@ -216,94 +218,94 @@ include 'inc/header.php';
                         </thead>
                         <tbody>
                             <tr>
-                                <td>.com <span class="hot label label-danger">Hot</span></td>
-                                <td>$<?php echo getPrecioDominio(".com") ?> <span class="old-price">$20</span></td>
-                                <td>$<?php echo getPrecioDominio(".com","domainrenew") ?></td>
-                                <td>$<?php echo getPrecioDominio(".com","domaintransfer") ?></td>
-                                <td>2 años</td>
+                                <td>.com</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".com") ?> <?php echo getMoneda(); ?> </td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".com","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".com","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
                             </tr>
                             <tr>
                                 <td>.co</td>
-                                <td>$11</td>
-                                <td>$11</td>
-                                <td>$9</td>
-                                <td>2 años</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".co") ?><?php echo getMoneda(); ?> </td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".co","msetupfee","domainrenew") ?><?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".co","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
                             </tr>
                             <tr>
                                 <td>.net</td>
-                                <td>$12 <span class="old-price">$20</span></td>
-                                <td>$12</td>
-                                <td>$10</td>
-                                <td>2 años</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".net") ?><?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".net","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".net","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
                             </tr>
                             <tr>
                                 <td>.in</td>
-                                <td>$10</td>
-                                <td>$10</td>
-                                <td>$8</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".in") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".in","msetupfee","domainrenew") ?><?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".in","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
                                 <td>1 año</td>
                             </tr>
                             <tr>
-                                <td>.asia <span class="newoffer label label-success">New</span></td>
-                                <td>$18</td>
-                                <td>$18</td>
-                                <td>$16</td>
-                                <td>2 años</td>
-                            </tr>
-                            <tr>
-                                <td>.org <span class="newoffer label label-success">New</span></td>
-                                <td>$12</td>
-                                <td>$12</td>
-                                <td>$10</td>
+                                <td>.asia</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".asia") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".asia","msetupfee","domainrenew") ?><?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".asia","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
                                 <td>1 año</td>
                             </tr>
                             <tr>
-                                <td>.shop <span class="premium label label-warning">Premium</span></td>
-                                <td>$22</td>
-                                <td>$22</td>
-                                <td>$20</td>
-                                <td>2 años</td>
+                                <td>.org</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".org") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".org","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".org","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
+                            </tr>
+                            <tr>
+                                <td>.shop</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".shop") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".shop","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".shop","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
                             </tr>
                             <tr>
                                 <td>.info</td>
-                                <td>$22 <span class="old-price">$30</span></td>
-                                <td>$22</td>
-                                <td>$20</td>
-                                <td>2 años</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".info") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".info","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".info","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
                             </tr>
-                            <tr>
-                                <td>.club </td>
-                                <td>$20</td>
-                                <td>$20</td>
-                                <td>$16</td>
-                                <td>2 años</td>
+                             <tr>
+                                <td>.info</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".club") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".club","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".club","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
                             </tr>
                             <tr>
                                 <td>.biz</td>
-                                <td>$22</td>
-                                <td>$22</td>
-                                <td>$20</td>
-                                <td>2 años</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".biz") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".biz","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".biz","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
+                                <td>1 año</td>
                             </tr>
                             <tr>
-                                <td>.us</td>
-                                <td>$13</td>
-                                <td>$13</td>
-                                <td>$11</td>
+                                <td>.biz</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".us") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".us","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".us","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
                                 <td>1 año</td>
                             </tr>
                             <tr>
                                 <td>.edu</td>
-                                <td>$10</td>
-                                <td>$10</td>
-                                <td>$8</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".edu") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".edu","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".edu","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
                                 <td>1 año</td>
                             </tr>
                             <tr>
                                 <td>.guru</td>
-                                <td>$24</td>
-                                <td>$24</td>
-                                <td>$20</td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".guru") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".guru","msetupfee","domainrenew") ?> <?php echo getMoneda(); ?></td>
+                                <td><?php echo getSymbol();?><?php echo getPrecioDominio(".guru","msetupfee","domaintransfer") ?> <?php echo getMoneda(); ?></td>
                                 <td>1 año</td>
                             </tr>
                         </tbody>

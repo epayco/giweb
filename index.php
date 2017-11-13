@@ -44,6 +44,15 @@ include 'inc/header.php';
       <button type="submit" class="btn waves-effect waves-light btn-info" style="width:100%">Buscar</button>
    </div>
 </form>
+ <div class="col-sm-12">
+<ul class="list-inline margin-bottom-15"> 
+ <li><img src="images/dtls/com.png" height="15" alt=""> $ 3500 COP</li>
+  <li><img src="images/dtls/co.png" height="15" alt=""> $ 3500 COP</li>
+   <li><img src="images/dtls/club.png" height="15" alt=""> $ 3500 COP</li>
+    <li><img src="images/dtls/online.png" height="15" alt=""> $ 3500 COP</li>
+    <li><img src="images/dtls/info.png" height="15" alt=""> $ 3500 COP</li>
+</ul>
+</div>
 </div>
 </div>
 

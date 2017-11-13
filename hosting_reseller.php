@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php
+<?php
 include 'inc/head.php';
 ?>
 </head>
@@ -10,7 +10,7 @@ include 'inc/head.php';
 <body>
     <!-- Global Fullpage Loader-->
     <!-- Top MiniBar-->
-    <?php
+<?php
 include 'inc/header.php';
 ?>
         <!-- End of Header-->
@@ -46,7 +46,7 @@ include 'inc/header.php';
                 <p> <i class="fa fa-check-circle" aria-hidden="true"></i> Garantía de funcionamiento en tiempo al aire del 99,9% </p>
               </h3>
                         <p><span>Desde</span>
-                            <br> <b class="price">50 USD/Mes</b></p>
+                            <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(106,"annually",12);?> <?php echo getMoneda(); ?>/Mes</b></p>
                         <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Ver planes </a></p>
                     </div>
                 </div>
@@ -85,8 +85,8 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
-                                                            <span class="per">Mensual</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(106,"annually",12);?> <?php echo getMoneda(); ?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                        <ul class="table-items">
 
@@ -139,7 +139,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(107);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Mensual</span>
                                                         </div>
                             <ul class="table-items">
@@ -194,7 +194,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(108);?> <?php echo getMoneda(); ?></h4>
                                                         <span class="per">Mensuales</span>
                                                     </div>
                                                     <ul class="table-items">
@@ -245,7 +245,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(109);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Mensuales</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -513,8 +513,8 @@ IP Adicionales Ilimitadas
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
-                                                            <span class="per">Mensual</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(111);?> <?php echo getMoneda(); ?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                        <ul class="table-items">
 
@@ -567,8 +567,8 @@ IP Adicionales Ilimitadas
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
-                                                            <span class="per">Mensual</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(112);?> <?php echo getMoneda(); ?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                             <ul class="table-items">
                                         <hr>
@@ -622,7 +622,7 @@ IP Adicionales Ilimitadas
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(108);?> <?php echo getMoneda(); ?></h4>
                                                         <span class="per">Mensuales</span>
                                                     </div>
                                                     <ul class="table-items">
@@ -673,8 +673,8 @@ IP Adicionales Ilimitadas
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
-                                                            <span class="per">Mensuales</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(113);?> <?php echo getMoneda(); ?></h4>
+                                                            <span class="per">Anuales</span>
                                                         </div>
                                                         <ul class="table-items">
 

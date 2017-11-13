@@ -46,7 +46,7 @@ include 'inc/header.php';
                  <p>Todos los sitios web corren riesgo de accidentes y pérdida de datos; <br> la  <b>copia de seguridad en la nube de CodeGuard</b> te permitirá recuperar los datos con sólo unos clics.</p>
               </h3>
                         <p class="price"><span>Protege tu sitio web desde</span>
-                            <br> <b class="price">22 USD/Mes</b></p>
+                            <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(4,"annually",12);?> <?php echo getMoneda(); ?>/Mes</b></p>
                         <p><a class="btn waves-effect waves-light btn-secondary btn-lg margin-top-10" data-toggle="modal" data-target="#videocodeguard" href="#plans"> Aprender más </a> <a id="buttonplans" class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Ver planes </a> </p>
                     </div>
                 </div>
@@ -147,8 +147,8 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
-                                                            <span class="per">Año</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(4);?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                 <ul class="table-items">
                                     <li class="item-table"> Capacidad <span> 1 GB </span></li>
@@ -185,10 +185,8 @@ include 'inc/header.php';
                                                         <p>Pymes y emprendedores</p>
                                                     </div>
                                                     <div class="panel-body text-center">
-                                                       
-
-                                                        <h4>$49</h4>
-                                                        <span class="per">Año</span>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(5);?></h4>
+                                                        <span class="per">Anual</span>
                                                     </div>
                                                  
                                                        <ul class="table-items">
@@ -229,8 +227,8 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             
-                                                            <h4>$90</h4>
-                                                            <span class="per">Mensuales</span>
+                                                            <h4><h4><?php echo getSymbol();?><?php echo getPrecioProducto(6);?></h4></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                          <ul class="table-items">
                                     <li class="item-table"> Capacidad <span> 5 GB </span></li>
@@ -272,29 +270,29 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                          
-                                                            <h4>$135</h4>
-                                                            <span class="per">Año</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(7);?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                     
-                                                     <ul class="table-items">
-                                    <li class="item-table"> Capacidad <span> 5 GB </span></li>
-                                    <hr>
-                                    <li class="item-table"> Sitios web  <span>  10 </span></li>
-                                    <hr>
-                                    <li class="item-table"> Base de datos <span> Ilimitado </span></li>
-                                    <hr>
-                                    <li class="item-table"> Copía automática <span> Diaria </span></li>
-                                    <hr>
-                                    <li class="item-table"> Copías  en demanda <span><i class="fa check fa-check fa-lg" aria-hidden="true"></i></span></li>
-                                    <hr>
-                                    <li class="item-table"> Colas de prioridad <span><i class="fa check fa-check fa-lg" aria-hidden="true"></i></span></li>
-                                    <hr>
-                                    <li class="item-table"> Descarga archivos zip <span> Ilimitado </span></li>
-                                    <hr>
-                                    <li class="item-table"> Restaurar web completa <span> Ilimitado </span></li>
-                                    <hr>
-                                    <li class="item-table"> Restaurar  archivos <span> Ilimitado</span></li>
-                                </ul>
+                                                         <ul class="table-items">
+                                                            <li class="item-table"> Capacidad <span> 5 GB </span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Sitios web  <span>  10 </span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Base de datos <span> Ilimitado </span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Copía automática <span> Diaria </span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Copías  en demanda <span><i class="fa check fa-check fa-lg" aria-hidden="true"></i></span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Colas de prioridad <span><i class="fa check fa-check fa-lg" aria-hidden="true"></i></span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Descarga archivos zip <span> Ilimitado </span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Restaurar web completa <span> Ilimitado </span></li>
+                                                            <hr>
+                                                            <li class="item-table"> Restaurar  archivos <span> Ilimitado</span></li>
+                                                        </ul>
 
                                                         <div class="panel-footer">
                                                             <!--  Various Pricing Dropdown Toggle -->

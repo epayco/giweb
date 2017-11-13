@@ -51,7 +51,7 @@ include 'inc/header.php';
 
 <p style="color:#444; font-size: 2rem; margin-bottom: -10px; margin-top: 30px">Por solo $2.800 COP / Mes</p>
 
-     <a class="btn waves-effect waves-light btn-secondary btn-lg  " href="#"> Ver demo </a> 
+     <a class="btn waves-effect waves-light btn-secondary btn-lg" href="http://sitio.colombiaredes.com/web-hosting/enterprise-email-hosting/demo" target="blank"> Ver demo (Email corporativo) </a> 
     <a class="btn waves-effect waves-light btn-info btn-lg " href="#"> Comprar </a> 
                     
                 </div>

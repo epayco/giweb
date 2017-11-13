@@ -43,7 +43,7 @@ include 'inc/header.php';
                  <p style="color: #444"> Si tu negocio o pasión es la radio, nunca había sido tan fácil estar al aire.</p>
               </h3>
                         <p style="color: #999"><span>Desde</span>
-                            <br> <b class="price">24 USD/Mes</b></p>
+                            <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(94,"annually",12);?> <?php echo getMoneda(); ?>/Mes</b></p>
                         <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Empieza a transmitir </a></p>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ include 'inc/header.php';
 
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(94);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Anuales</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -120,7 +120,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(93);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Anuales</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -159,7 +159,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(95);?> <?php echo getMoneda(); ?></h4>
                                                         <span class="per">Anuales</span>
                                                     </div>
                                                     <ul class="table-items">
@@ -193,7 +193,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(96);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Anuales</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -304,7 +304,7 @@ include 'inc/header.php';
 
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(97);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Anuales</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -340,7 +340,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(98);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Anuales</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -379,7 +379,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(99);?> <?php echo getMoneda(); ?></h4>
                                                         <span class="per">Anuales</span>
                                                     </div>
                                                     <ul class="table-items">
@@ -413,7 +413,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(100);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Anuales</span>
                                                         </div>
                                                         <ul class="table-items">

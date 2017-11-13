@@ -45,7 +45,7 @@ include 'inc/header.php';
                  <p  style="color:#444"> La mejor opción para las aplicaciones web de recursos intensivos.</p>
               </h3>
                         <p class="price"><span>Desde</span>
-                            <br> <b class="price">26 USD/Mes</b></p>
+                            <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(117,"monthly",12);?> <?php echo getMoneda(); ?>/Mes</b></p>
                         <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Empieza </a></p>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ include 'inc/header.php';
 
                      <td>
 
-                    $231,707 COP
+                    <?php echo getSymbol();?><?php echo getPrecioProducto(114,"monthly");?> <?php echo getMoneda(); ?>
                   <br>   <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a>
                      </td>
                  </tr>
@@ -123,7 +123,7 @@ include 'inc/header.php';
                      <td>Plesk 11.X <br> 10 Dominios Gratis</td>
 
                      <td>
-                           $381,290 COP
+                          <?php echo getSymbol();?><?php echo getPrecioProducto(115,"monthly");?> <?php echo getMoneda(); ?>
                          <br>   <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a>
                      </td>
                  </tr>
@@ -136,7 +136,7 @@ include 'inc/header.php';
                      <td>Plesk 11.X <br> 10 Dominios Gratis</td>
 
                      <td>
-                         $469,280 COP
+                        <?php echo getSymbol();?><?php echo getPrecioProducto(116,"monthly");?> <?php echo getMoneda(); ?>
                         <br>   <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a>
                      </td>
                  </tr>
@@ -162,7 +162,6 @@ include 'inc/header.php';
                               <th >RAID</th>
                               <th >Tráfico</th>
                               <th >Plesk</th>
-
                               <th >Precio / Mes</th>
                           </tr>
                             </thead>
@@ -177,7 +176,7 @@ include 'inc/header.php';
                                <td>Plesk 11.X <br> 10 Dominios Gratis</td>
 
                                <td>
-                                   $527,940 COP
+                                  <?php echo getSymbol();?><?php echo getPrecioProducto(117,"monthly");?> <?php echo getMoneda(); ?>
                                      <br>   <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a>
                                    </form>
                                </td>
@@ -191,9 +190,8 @@ include 'inc/header.php';
                                <td>Plesk 11.X <br> 10 Dominios Gratis</td>
 
                                <td>
-                                   $762,580 COP
-                                     <br>   <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a>
-
+                                <?php echo getSymbol();?><?php echo getPrecioProducto(118,"monthly");?> <?php echo getMoneda(); ?>
+                                <br>   <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a>
                                </td>
                            </tr>
                            <tr>
@@ -206,7 +204,8 @@ include 'inc/header.php';
                                <td>Plesk 11.X <br> 10 Dominios Gratis</td>
 
                                <td>
-                                      $1,026,550 COP
+                                 <?php echo getSymbol();?><?php echo getPrecioProducto(119,"monthly");?> <?php echo getMoneda(); ?>
+
                                         <br>   <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a>
                                </td>
                            </tr>

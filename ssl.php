@@ -106,7 +106,7 @@ include 'inc/header.php';
                                  <td>QuickSSL Premium</td>
                                  <td>Dominio </td>
                                  <td>1-2 Días</td>
-                                 <td> $443.000 COP</td>
+                                 <td> <?php echo getSymbol();?><?php echo getPrecioProducto(26);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                               <tr>
@@ -116,19 +116,13 @@ include 'inc/header.php';
                                     <h3>Detalle</h3>
                                     </div></td>
                               </tr>
-                              <!-- End of Domain 1 Pricing-->
-
-                              <!-- Domain 2 Pricing-->
-
-
-
-                              <!-- Domain 3 Pricing-->
+                            
                                <tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>True BussinessID with EV</td>
                                  <td>Empresa </td>
                                  <td>1-10 Días</td>
-                                 <td> $922.000 COP</td>
+                                 <td> <?php echo getSymbol();?><?php echo getPrecioProducto(29);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -146,7 +140,7 @@ include 'inc/header.php';
                                  <td>True BussinessID</td>
                                  <td>Empresa </td>
                                  <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(27);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                           <tr>
@@ -164,7 +158,7 @@ include 'inc/header.php';
                                  <td>True BussinessID Multi Domain</td>
                                  <td>Empresa </td>
                                  <td>1-2 Días</td>
-                                 <td> $2.443.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(28);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -182,7 +176,7 @@ include 'inc/header.php';
                                  <td>True BussinessID WildCard</td>
                                  <td>Empresa </td>
                                  <td>1-2 Días</td>
-                                 <td> $1.543.000 COP</td>
+                                 <td> <?php echo getSymbol();?><?php echo getPrecioProducto(31);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -200,7 +194,7 @@ include 'inc/header.php';
                                  <td>True BussinessID (EV) Multi Domain</td>
                                  <td>Empresa </td>
                                  <td>1-10 Días</td>
-                                 <td> $1.560.000 COP</td>
+                                 <td> <?php echo getSymbol();?><?php echo getPrecioProducto(32);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                            <tr>
@@ -218,7 +212,7 @@ include 'inc/header.php';
                                  <td>Geotrust Web Site Anti Malware-Scan</td>
                                  <td>Dominio </td>
                                  <td>N/A</td>
-                                 <td> $287.000 COP</td>
+                                 <td> <?php echo getSymbol();?><?php echo getPrecioProducto(33);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                               <tr>

@@ -79,8 +79,8 @@ include 'inc/header.php';
 </div>
 <div class="col-sm-10 col-sm-offset-1 text-center  margin-top-20 ">
 
-                                                    <p><span>Protege tu sitio web desde</span>
-                            <br> <b>22 USD/Mes</b></p>
+                        <p><span>Protege tu sitio web desde</span>
+                            <br> <b><?php echo getSymbol();?><?php echo getPrecioProducto(16,"annually",12);?><?php echo getMoneda(); ?></b></p>
                         <p><a class="btn waves-effect waves-light btn-secondary btn-lg " data-toggle="modal" data-target="#videositelock" href="#"> Aprender más </a> <a id="buttonplans" class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#plans"> Ver planes </a> </p>
                     
                 </div>
@@ -180,7 +180,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                            
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(16);?><?php echo getMoneda(); ?></h4>
                                                             <span class="per">Año</span>
                                                         </div>
                                 <ul class="table-items">
@@ -226,9 +226,7 @@ include 'inc/header.php';
                                                         <p>Pymes y emprendedores</p>
                                                     </div>
                                                     <div class="panel-body text-center">
-                                                       
-
-                                                        <h4>$49</h4>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(17);?><?php echo getMoneda(); ?></h4>
                                                         <span class="per">Año</span>
                                                     </div>
                                                  
@@ -278,7 +276,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             
-                                                            <h4>$90</h4>
+                                                            <h4><h4><?php echo getSymbol();?><?php echo getPrecioProducto(18);?><?php echo getMoneda(); ?></h4></h4>
                                                             <span class="per">Mensuales</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -328,7 +326,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                          
-                                                            <h4>$135</h4>
+                                                            <h4><h4><?php echo getSymbol();?><?php echo getPrecioProducto(32);?><?php echo getMoneda(); ?></h4></h4>
                                                             <span class="per">Año</span>
                                                         </div>
                                                     

@@ -32,8 +32,8 @@ include 'inc/header.php';
         </section>
         <!-- End of Breadcrumps -->
         <!-- sub-banner -->
-        <section id="sub-banner" class="bg_dark" style="background: url('images/slides/slide_15.jpg'); background-size: cover; ">
-            <div class="row info-text wow fadeIn" style="padding-top:60px !important;">
+        <section id="sub-banner" class="bg_dark" style="background: url(images/mins_email.png) no-repeat center bottom;">
+            <div class="row info-text wow fadeIn" style="padding-top:20px !important;">
                 <div class="col-sm-12  text-center  ">
                     
                        
@@ -49,14 +49,6 @@ include 'inc/header.php';
  <div class="clearfix"></div>
                        
 
-<div class="col-sm-12  margin-top-40 text-center ">
-
-<p style="color:#444; font-size: 2rem; margin-bottom: -10px; margin-top: 30px">Por solo $6.662 COP / Mes</p>
-
-     <a class="btn waves-effect waves-light btn-secondary btn-lg  " href="#"> Ver demo </a> 
-    <a class="btn waves-effect waves-light btn-info btn-lg " href="#"> Comprar </a> 
-                    
-                </div>
               
             </div>
 
@@ -68,6 +60,16 @@ include 'inc/header.php';
      
         <!-- End of Sub-Banner -->
         <!-- Shared Hosting Tabs -->
+
+
+<div class="text-center section_space ">
+
+<p style="color:#444; font-size: 2rem">Por solo $6.662 COP / Mes</p>
+
+     <a class="btn waves-effect waves-light btn-secondary btn-lg  " href="http://sitio.colombiaredes.com/web-hosting/enterprise-email-hosting/demo" target="blank"> Ver demo </a> 
+    <a class="btn waves-effect waves-light btn-info btn-lg " href="#"> Comprar </a> 
+                    
+                </div>
 
         <div class="bg_gray extra-features ">
          <div class="row countemial">

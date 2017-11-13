@@ -13,9 +13,9 @@
                         <h3 class="text-center">Servidores dedicados</h3>
                     </div>
                     <div class="panel-body text-center">
-                        <span>DESDE</span>
-                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(114,"monthly")?><?php getMoneda() ?></h4>
-                        <span class="per">MENSUALES</span>
+                          <p class="from">Desde</p>
+                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(114,"monthly")?><?php getMoneda() ?><span>/Mes</span>
+                        </h4>
                     </div>
                     <ul class="text-center">
                         <li>Servidores <b>  Hewlett packard</b></li>
@@ -38,9 +38,10 @@
                     <h3 class="text-center">Servidores VPS</h3>
                 </div>
                 <div class="panel-body text-center">
-                    <span>DESDE</span>
-                    <h4><?php echo getSymbol();?><?php echo getPrecioProducto(219)?><?php getMoneda() ?></h4>
-                    <span class="per">MENSUALES</span>
+                      <p class="from">Desde</p>
+                    <h4><?php echo getSymbol();?><?php echo getPrecioProducto(219)?><?php getMoneda() ?><span>/Mes</span>
+                    </h4>
+                   
                 </div>
                 <ul class="text-center">
                     <li>Espacio en Disco <b> 200GB SSD </b></li>
@@ -60,9 +61,10 @@
                         <h3 class="text-center"> Hosting avanzado</h3>
                     </div>
                     <div class="panel-body text-center">
-                        <span>DESDE</span>
-                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(21)?><?php getMoneda() ?></h4>
-                        <span class="per">MENSUALES</span>
+                            <p class="from">Desde</p>
+                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(21)?><?php getMoneda() ?><span>/Mes</span>
+                        </h4>
+                       
                     </div>
                     <ul class="text-center">
                         <li><b>Últimas versiones </b> PHP y Mysql</li>

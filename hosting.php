@@ -34,7 +34,7 @@ include 'inc/header.php';
         </section>
         <!-- End of Breadcrumps -->
         <!-- sub-banner -->
-        <section id="sub-banner" class="bg_dark" style="background: url('images/slides/slide_3.png'); background-size: cover;">
+        <section id="sub-banner" class="bg_dark" style="background: url('images/slides/slide_3.jpg'); background-size: cover;">
             <div class="row info-text wow fadeIn">
                 <div class="col-sm-5">
                     <div class="card">
@@ -44,7 +44,7 @@ include 'inc/header.php';
                  <p>En <b>giweb</b>  tenemos la solución de hosting <br>  que tu negocio necesita.</p>
               </h3>
                             <p class="price "><span>Desde</span>
-                                <br> <b class="price">24 USD/Mes</b></p>
+                                <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(1,"annually",12);?> <?php echo getMoneda(); ?>/Mes</b></p>
                             <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Comenzar ahora </a></p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$<?php echo getPrecioProducto(1);?></h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(1);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Anual</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -142,8 +142,8 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
-                                                        <span class="per">Mensuales</span>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(250);?> <?php echo getMoneda(); ?></h4>
+                                                        <span class="per">Anual</span>
                                                     </div>
                                                     <ul class="table-items">
                                                         <li class="item-table"> Espacio en disco <span> 100 GB </span></li>
@@ -176,8 +176,8 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
-                                                            <span class="per">Mensuales</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(251);?> <?php echo getMoneda(); ?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                         <ul class="table-items">
                                                             <li class="item-table"> Espacio en disco <span> Ilimitado </span></li>
@@ -193,7 +193,7 @@ include 'inc/header.php';
                                                             <li class="item-table"> Dominios adicionales <span> 3 </span></li>
                                                             <hr>
                                                             <li class="item-table"> cPanel, PHP, MySQL <span> <i class="fa check fa-check fa-lg" aria-hidden="true"></i>
- </span></li>
+                                                            </span></li>
                                                         </ul>
                                                         <div class="panel-footer">
                                                             <!--  Various Pricing Dropdown Toggle -->
@@ -688,7 +688,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(88);?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Mensual</span>
                                                         </div>
                                                         <ul class="table-items">
@@ -737,8 +737,8 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
-                                                        <span class="per">Mensuales</span>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(90);?> <?php echo getMoneda(); ?></h4>
+                                                        <span class="per">Anual</span>
                                                     </div>
                                                     <ul class="table-items">
                                                         <li class="item-table"> Espacio en disco <span> 100 GB </span></li>
@@ -783,8 +783,8 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
-                                                            <span class="per">Mensuales</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(91);?> <?php echo getMoneda(); ?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                         <ul class="table-items">
                                                             <li class="item-table"> Espacio en disco <span> Ilimitado </span></li>

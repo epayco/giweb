@@ -43,7 +43,7 @@ include 'inc/header.php';
                  <p style="color: #444">Tu negocio en línea funcionando en minutos. </p>
               </h3>
                         <p style="color: #999"><span>Desde</span>
-                            <br> <b class="price">24 USD/Mes</b></p>
+                            <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(240,"annually",12);?> <?php echo getMoneda(); ?></b></p>
                         <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Construye tu web ahora </a></p>
                     </div>
                 </div>
@@ -83,8 +83,8 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
-                                                            <span class="per">Mensual</span>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(240);?> <?php echo getMoneda(); ?></h4>
+                                                            <span class="per">Anual</span>
                                                         </div>
                                                         <ul class="table-items">
                                                             <li class="item-table"> Espacio en disco <span> 10 GB </span></li>
@@ -139,8 +139,8 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
-                                                        <span class="per">Mensuales</span>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(241);?> <?php echo getMoneda(); ?></h4>
+                                                        <span class="per">Anual</span>
                                                     </div>
                                                     <ul class="table-items">
                                                         <li class="item-table"> Espacio en disco <span> 20 GB </span></li>

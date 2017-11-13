@@ -81,11 +81,11 @@ function getPrecioDominio($ext,$time="msetupfee",$type="domainregister"){
  
 }
 
-function getPrecioProducto($id,$time="annually"){
+function getPrecioProducto($id,$time="annually",$meses=1){
 
  $producto= $producto=getProductsPricing($id);
  $producto=(array)$producto;
- $valor=$producto[$time];
+ $valor=$producto[$time]/$meses;
  return number_format($valor,0,".,",".");
  
  }

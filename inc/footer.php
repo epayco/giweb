@@ -65,7 +65,8 @@
     <div class="row">
         <div class="col-sm-6 col-xs-6">
                 <div class="footer_logo">
-                    <a href="index.php"><img src="images/logo.png" height="35px" alt="">
+                    <a href="index.php"><img src="images/giwebb.png" height="45px" alt=""> 
+                      
                     </a>
                 </div>
         </div>
@@ -83,15 +84,17 @@
 
       <div class="payments">
             <div class="row">
-                <div class="col-md-6 margin-top-20">
+                <div class="col-md-2 margin-top-20">
                     <ul class="list-inline">
                       <!-- <img src="https://www.giweb.io/images/clipart/rue.png" data-pin-nopin="true" alt="award-img1"> -->
 
                     </ul>
                 </div>
 
-                <div class="col-md-6  margin-bottom-20 margin-top-10 text-right">
-                  <img src="https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/powered.png" alt="">
+                <div class="col-md-10  margin-bottom-20 margin-top-10 text-right pay_methods">
+                    <img src="images/paypal_logo.png" height="35px" alt="">
+                    <img src="images/stripe_logo.png" height="35px" alt="">
+                  <img src="https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/powered.png"  height="35px" alt="">
 
 
               </div>
@@ -105,7 +108,7 @@
 
                     <div class="col-sm-12">
 
-                        <p class="margin-top-20"> <b>giweb</b>  Soluciones Web S.A.S © Copyright 2006-2017 .</p>
+                        <p class="margin-top-20"> <b>giweb</b> S.A.S © Copyright 2006-2017 .</p>
                     </div>
 
 

@@ -24,3 +24,5 @@ include dirname(__FILE__).'/../clientes/__functions.php';
   <link href="style.css" rel="stylesheet">
   <link href="css/yamm.css" rel="stylesheet">
   <link href="css/tablesaw.stackonly.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+

@@ -40,10 +40,10 @@ include 'inc/header.php';
                     <div>
                         <h2><b>Más rapido, fiable y escalabre</b> </h2>
                         <h3>
-                 <p>Perfecto si tienes pensado gran crecimiento de tu aplicación, total personalización y acceso root.</p>
-              </h3>
+                         <p>Perfecto si tienes pensado gran crecimiento de tu aplicación, total personalización y acceso root.</p>
+                      </h3>
                         <p class="price "><span>Desde</span>
-                            <br> <b class="price">26 USD/Mes</b></p>
+                            <br> <b class="price"><?php echo getSymbol();?><?php echo getPrecioProducto(120,"monthly",12);?> <?php echo getMoneda(); ?>/Mes</b></p>
                         <p><a class="btn waves-effect waves-light btn-info btn-lg margin-top-10" href="#"> Emprende tu idea </a></p>
                     </div>
                 </div>
@@ -51,13 +51,13 @@ include 'inc/header.php';
             </div>
 
         </section>
-<div class="bg_gray ">
-  <div class="row">
-      <div class="col-sm-12  margin-top-20 margin-bottom-20">
-      <h4 style="line-height:3rem">  Los servidores <b>VPS SSD </b>de <b>ColombiaRedes </b>están equipados con el hardware más reciente de <b>Intel</b>, incluyendo almacenamiento protegido <b>SSD Raid</b>  extremadamente rápido. Cada <b>SSD VPS</b> incluye nuestras características avanzadas. </h4>
-</div>
-</div>
-</div>
+        <div class="bg_gray ">
+          <div class="row">
+              <div class="col-sm-12  margin-top-20 margin-bottom-20">
+              <h4 style="line-height:3rem">  Los servidores <b>VPS SSD </b>de <b>ColombiaRedes </b>están equipados con el hardware más reciente de <b>Intel</b>, incluyendo almacenamiento protegido <b>SSD Raid</b>  extremadamente rápido. Cada <b>SSD VPS</b> incluye nuestras características avanzadas. </h4>
+             </div>
+            </div>
+        </div>
 
         <!-- End of Sub-Banner -->
         <!-- Shared Hosting Tabs -->
@@ -85,7 +85,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$50</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(120,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Mensual</span>
                                                         </div>
                                                        <ul class="table-items">
@@ -93,7 +93,7 @@ include 'inc/header.php';
                                     <li class="item-table"> Espacio en Disco <span> 200 GB </span></li>
                                     <hr>
                                     <li class="item-table"> CPU <span> 2 vCores
- </span></li>
+                                    </span></li>
                                     <hr>
                                     <li class="item-table"> RAM Garantizada
                                         <span> 3 GB
@@ -186,7 +186,7 @@ include 'inc/header.php';
                                                     </div>
                                                     <div class="panel-body text-center">
                                                         <span>Desde</span>
-                                                        <h4>$345</h4>
+                                                        <h4><?php echo getSymbol();?><?php echo getPrecioProducto(121,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                         <span class="per">Mensuales</span>
                                                     </div>
                                                   <ul class="table-items">
@@ -284,7 +284,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(122,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Mensuales</span>
                                                         </div>
                                                       <ul class="table-items">
@@ -385,7 +385,7 @@ include 'inc/header.php';
                                                         </div>
                                                         <div class="panel-body text-center">
                                                             <span>Desde</span>
-                                                            <h4>$390</h4>
+                                                            <h4><?php echo getSymbol();?><?php echo getPrecioProducto(123,"monthly");?> <?php echo getMoneda(); ?></h4>
                                                             <span class="per">Mensuales</span>
                                                         </div>
                                                     <ul class="table-items">
@@ -520,9 +520,10 @@ include 'inc/header.php';
                     <i class="fa fa-check-circle  fa-3x text-blue "></i>
                     <div class="data margin-top-20">
                         <p> <b>4 locaciones para elegir</b>   <br>Chicaco, USA
-Dallas, USA
-Los Angeles, USA
-Miami, USA                        </p>
+                            Dallas, USA
+                            Los Angeles, USA
+                            Miami, USA                        
+                        </p>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center margin-top-40">
