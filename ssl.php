@@ -803,7 +803,7 @@ include 'inc/header.php';
                                  <td>Thawte SSL Web Server with EV</td>
                                  <td>Dominio </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(44);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                               <tr>
@@ -819,7 +819,7 @@ include 'inc/header.php';
                                  <td>Thawte SSL 123</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(42);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -835,7 +835,7 @@ include 'inc/header.php';
                                  <td>Thawte SSL Web Server</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(43);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -846,9 +846,7 @@ include 'inc/header.php';
                                     </div></td>
                               </tr>
 
-
-
-                               <tr>
+                              <!--<tr>
                                  <td class="id_div_summary"><img src="images/plus.png" border="0"></td>
                                  <td>Thawte SGC SuperCerts</td>
                                  <td>Empresa </td>
@@ -863,7 +861,7 @@ include 'inc/header.php';
                                     <h3>Detalle</h3>
                                     </div></td>
                               </tr>
-
+                              !-->
 
 
                                <tr>
@@ -871,7 +869,7 @@ include 'inc/header.php';
                                  <td>Thawte Wildcard SSL Certificate</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(45);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
@@ -889,7 +887,7 @@ include 'inc/header.php';
                                  <td>Thawte Code Signing Certificate</td>
                                  <td>Empresa </td>
                                   <td>1-2 Días</td>
-                                 <td> $603.000 COP</td>
+                                 <td><?php echo getSymbol();?><?php echo getPrecioProducto(46);?><?php echo getMoneda() ?></td>
                                   <td> <a class="btn waves-effect waves-light btn-primary btn-sm" href="#">Comprar ahora</a></td>
                               </tr>
                             <tr>
